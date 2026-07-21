@@ -232,20 +232,20 @@ text_options_apply.grid(column=2, row=4)
 
 ## Configure Section 4 GUI - extra options and Go button
 
-other_options_frame = ttk.Frame(main_frame)
-other_options_frame.grid(column=0, columnspan=2, row=2, sticky="w")
-other_options_label = ttk.Label(other_options_frame, text="Other Options")
-other_options_label.grid(column=0, row=0, sticky="w")
-
-other_options_batch_checkbox = ttk.Checkbutton(other_options_frame, text="Batch Process Folder?")
-other_options_batch_checkbox.grid(column=0, row=1, sticky="w")
-
-other_options_path_label = ttk.Label(other_options_frame, text="Folder Path")
-other_options_path_entry = ttk.Entry(other_options_frame)
-other_options_path_label.grid(column=0, row=2, sticky="w")
-other_options_path_entry.grid(column=1, row=2)
-
-other_options_btn = ttk.Button(other_options_frame, text="Batch Process Folder")
-other_options_btn.grid(column=1, row=3, sticky="w")
+# other_options_frame = ttk.Frame(main_frame)
+# other_options_frame.grid(column=0, columnspan=2, row=2, sticky="w")
+# other_options_label = ttk.Label(other_options_frame, text="Other Options")
+# other_options_label.grid(column=0, row=0, sticky="w")
+#
+# other_options_batch_checkbox = ttk.Checkbutton(other_options_frame, text="Batch Process Folder?")
+# other_options_batch_checkbox.grid(column=0, row=1, sticky="w")
+#
+# other_options_path_label = ttk.Label(other_options_frame, text="Folder Path")
+# other_options_path_entry = ttk.Entry(other_options_frame)
+# other_options_path_label.grid(column=0, row=2, sticky="w")
+# other_options_path_entry.grid(column=1, row=2)
+#
+# other_options_btn = ttk.Button(other_options_frame, text="Batch Process Folder")
+# other_options_btn.grid(column=1, row=3, sticky="w")
 
 window.mainloop()
